@@ -7,9 +7,10 @@ class Solution:
             left_side[i] = l_sum
         r_sum = 1
         right_side = [1] * len(nums)
-        for j in range(len(nums)-1,-1,-1):
+        for j in range(len(nums)-2,-1,-1):
+            r_sum *= nums[j+1]   
             right_side[j] = r_sum
-            r_sum *= nums[j]    
+             
         print(left_side)   
         print(right_side) 
         for k in range(len(nums)):
