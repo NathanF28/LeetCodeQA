@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
 | [2102-find-the-middle-index-in-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2102-find-the-middle-index-in-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NathanF28/LeetCodeQA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2358-number-of-ways-to-split-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2358-number-of-ways-to-split-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/NathanF28/LeetCodeQA/tree/master/0724-find-pivot-index) |
 | [2102-find-the-middle-index-in-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2102-find-the-middle-index-in-array) |
+| [2358-number-of-ways-to-split-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2358-number-of-ways-to-split-array) |
 ## Math
 |  |
 | ------- |
