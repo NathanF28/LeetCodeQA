@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0001-two-sum) |
 | [0209-minimum-size-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/NathanF28/LeetCodeQA/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/NathanF28/LeetCodeQA/tree/master/0303-range-sum-query-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/NathanF28/LeetCodeQA/tree/master/0525-contiguous-array) |
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/NathanF28/LeetCodeQA/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/NathanF28/LeetCodeQA/tree/master/0303-range-sum-query-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/NathanF28/LeetCodeQA/tree/master/0525-contiguous-array) |
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
@@ -69,4 +71,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/NathanF28/LeetCodeQA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+## Design
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/NathanF28/LeetCodeQA/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
