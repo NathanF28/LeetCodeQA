@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
+| [2235-capitalize-the-title](https://github.com/NathanF28/LeetCodeQA/tree/master/2235-capitalize-the-title) |
 ## Sliding Window
 |  |
 | ------- |
