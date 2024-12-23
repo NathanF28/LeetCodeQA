@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/NathanF28/LeetCodeQA/tree/master/0525-contiguous-array) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/NathanF28/LeetCodeQA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Two Pointers
 |  |
 | ------- |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NathanF28/LeetCodeQA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/NathanF28/LeetCodeQA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Array
 |  |
 | ------- |
@@ -44,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2102-find-the-middle-index-in-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2102-find-the-middle-index-in-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NathanF28/LeetCodeQA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2358-number-of-ways-to-split-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2358-number-of-ways-to-split-array) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/NathanF28/LeetCodeQA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NathanF28/LeetCodeQA/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Binary Search
 |  |
