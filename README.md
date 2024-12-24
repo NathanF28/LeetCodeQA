@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/NathanF28/LeetCodeQA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0523-continuous-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/NathanF28/LeetCodeQA/tree/master/0525-contiguous-array) |
+| [0560-subarray-sum-equals-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/NathanF28/LeetCodeQA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3265-maximum-good-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/3265-maximum-good-subarray-sum) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/NathanF28/LeetCodeQA/tree/master/0303-range-sum-query-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/NathanF28/LeetCodeQA/tree/master/0525-contiguous-array) |
+| [0560-subarray-sum-equals-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/NathanF28/LeetCodeQA/tree/master/0724-find-pivot-index) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
@@ -64,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/NathanF28/LeetCodeQA/tree/master/0303-range-sum-query-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/NathanF28/LeetCodeQA/tree/master/0525-contiguous-array) |
+| [0560-subarray-sum-equals-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/NathanF28/LeetCodeQA/tree/master/0724-find-pivot-index) |
 | [2102-find-the-middle-index-in-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2102-find-the-middle-index-in-array) |
