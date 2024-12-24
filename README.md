@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
+| [0874-backspace-string-compare](https://github.com/NathanF28/LeetCodeQA/tree/master/0874-backspace-string-compare) |
 ## String
 |  |
 | ------- |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/NathanF28/LeetCodeQA/tree/master/0020-valid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/NathanF28/LeetCodeQA/tree/master/0316-remove-duplicate-letters) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
+| [0874-backspace-string-compare](https://github.com/NathanF28/LeetCodeQA/tree/master/0874-backspace-string-compare) |
 | [2235-capitalize-the-title](https://github.com/NathanF28/LeetCodeQA/tree/master/2235-capitalize-the-title) |
 | [3447-clear-digits](https://github.com/NathanF28/LeetCodeQA/tree/master/3447-clear-digits) |
 ## Sliding Window
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/NathanF28/LeetCodeQA/tree/master/0155-min-stack) |
 | [0316-remove-duplicate-letters](https://github.com/NathanF28/LeetCodeQA/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/NathanF28/LeetCodeQA/tree/master/0496-next-greater-element-i) |
+| [0874-backspace-string-compare](https://github.com/NathanF28/LeetCodeQA/tree/master/0874-backspace-string-compare) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NathanF28/LeetCodeQA/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3447-clear-digits](https://github.com/NathanF28/LeetCodeQA/tree/master/3447-clear-digits) |
 ## Binary Indexed Tree
@@ -137,5 +140,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0874-backspace-string-compare](https://github.com/NathanF28/LeetCodeQA/tree/master/0874-backspace-string-compare) |
 | [3447-clear-digits](https://github.com/NathanF28/LeetCodeQA/tree/master/3447-clear-digits) |
 <!---LeetCode Topics End-->
