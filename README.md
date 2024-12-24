@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/NathanF28/LeetCodeQA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3265-maximum-good-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/3265-maximum-good-subarray-sum) |
 ## Two Pointers
 |  |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NathanF28/LeetCodeQA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/NathanF28/LeetCodeQA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Array
 |  |
 | ------- |
@@ -59,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NathanF28/LeetCodeQA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2358-number-of-ways-to-split-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2358-number-of-ways-to-split-array) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/NathanF28/LeetCodeQA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NathanF28/LeetCodeQA/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3265-maximum-good-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/3265-maximum-good-subarray-sum) |
 ## Binary Search
