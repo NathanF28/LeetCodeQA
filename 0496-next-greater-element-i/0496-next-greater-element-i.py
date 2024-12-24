@@ -13,8 +13,7 @@ class Solution:
                     break
                 if nums2[r] > num: 
                     liste.append(nums2[r])
-                    break
-                
+                    break                
                 r+=1    
         return liste                       
         
