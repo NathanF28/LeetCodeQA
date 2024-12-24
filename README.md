@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/NathanF28/LeetCodeQA/tree/master/0155-min-stack) |
 | [0303-range-sum-query-immutable](https://github.com/NathanF28/LeetCodeQA/tree/master/0303-range-sum-query-immutable) |
 ## Greedy
 |  |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/NathanF28/LeetCodeQA/tree/master/0155-min-stack) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NathanF28/LeetCodeQA/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3447-clear-digits](https://github.com/NathanF28/LeetCodeQA/tree/master/3447-clear-digits) |
 ## Binary Indexed Tree
