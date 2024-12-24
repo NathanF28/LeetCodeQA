@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/NathanF28/LeetCodeQA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
 | [2235-capitalize-the-title](https://github.com/NathanF28/LeetCodeQA/tree/master/2235-capitalize-the-title) |
+| [3447-clear-digits](https://github.com/NathanF28/LeetCodeQA/tree/master/3447-clear-digits) |
 ## Sliding Window
 |  |
 | ------- |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NathanF28/LeetCodeQA/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3447-clear-digits](https://github.com/NathanF28/LeetCodeQA/tree/master/3447-clear-digits) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -120,4 +122,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NathanF28/LeetCodeQA/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+## Simulation
+|  |
+| ------- |
+| [3447-clear-digits](https://github.com/NathanF28/LeetCodeQA/tree/master/3447-clear-digits) |
 <!---LeetCode Topics End-->
