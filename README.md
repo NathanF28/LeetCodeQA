@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/NathanF28/LeetCodeQA/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/NathanF28/LeetCodeQA/tree/master/0011-container-with-most-water) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
 | [0874-backspace-string-compare](https://github.com/NathanF28/LeetCodeQA/tree/master/0874-backspace-string-compare) |
 ## String
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/NathanF28/LeetCodeQA/tree/master/0011-container-with-most-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/NathanF28/LeetCodeQA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0209-minimum-size-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/NathanF28/LeetCodeQA/tree/master/0238-product-of-array-except-self) |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/NathanF28/LeetCodeQA/tree/master/0011-container-with-most-water) |
 | [0316-remove-duplicate-letters](https://github.com/NathanF28/LeetCodeQA/tree/master/0316-remove-duplicate-letters) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
 ## Stack
