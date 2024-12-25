@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NathanF28/LeetCodeQA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/NathanF28/LeetCodeQA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [3644-minimum-positive-sum-subarray](https://github.com/NathanF28/LeetCodeQA/tree/master/3644-minimum-positive-sum-subarray) |
 ## Array
 |  |
 | ------- |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2856-count-complete-subarrays-in-an-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/NathanF28/LeetCodeQA/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3265-maximum-good-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/3265-maximum-good-subarray-sum) |
+| [3644-minimum-positive-sum-subarray](https://github.com/NathanF28/LeetCodeQA/tree/master/3644-minimum-positive-sum-subarray) |
 ## Binary Search
 |  |
 | ------- |
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2102-find-the-middle-index-in-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2102-find-the-middle-index-in-array) |
 | [2358-number-of-ways-to-split-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2358-number-of-ways-to-split-array) |
 | [3265-maximum-good-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/3265-maximum-good-subarray-sum) |
+| [3644-minimum-positive-sum-subarray](https://github.com/NathanF28/LeetCodeQA/tree/master/3644-minimum-positive-sum-subarray) |
 ## Math
 |  |
 | ------- |
