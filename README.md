@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NathanF28/LeetCodeQA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0187-repeated-dna-sequences](https://github.com/NathanF28/LeetCodeQA/tree/master/0187-repeated-dna-sequences) |
 | [0496-next-greater-element-i](https://github.com/NathanF28/LeetCodeQA/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/NathanF28/LeetCodeQA/tree/master/0525-contiguous-array) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NathanF28/LeetCodeQA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/NathanF28/LeetCodeQA/tree/master/0020-valid-parentheses) |
+| [0187-repeated-dna-sequences](https://github.com/NathanF28/LeetCodeQA/tree/master/0187-repeated-dna-sequences) |
 | [0316-remove-duplicate-letters](https://github.com/NathanF28/LeetCodeQA/tree/master/0316-remove-duplicate-letters) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
 | [0874-backspace-string-compare](https://github.com/NathanF28/LeetCodeQA/tree/master/0874-backspace-string-compare) |
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NathanF28/LeetCodeQA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0187-repeated-dna-sequences](https://github.com/NathanF28/LeetCodeQA/tree/master/0187-repeated-dna-sequences) |
 | [0209-minimum-size-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0209-minimum-size-subarray-sum) |
 | [0413-arithmetic-slices](https://github.com/NathanF28/LeetCodeQA/tree/master/0413-arithmetic-slices) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
@@ -157,4 +160,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0413-arithmetic-slices](https://github.com/NathanF28/LeetCodeQA/tree/master/0413-arithmetic-slices) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/NathanF28/LeetCodeQA/tree/master/0187-repeated-dna-sequences) |
+## Rolling Hash
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/NathanF28/LeetCodeQA/tree/master/0187-repeated-dna-sequences) |
+## Hash Function
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/NathanF28/LeetCodeQA/tree/master/0187-repeated-dna-sequences) |
 <!---LeetCode Topics End-->
