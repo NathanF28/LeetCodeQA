@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/NathanF28/LeetCodeQA/tree/master/0594-longest-harmonious-subsequence) |
 | [0940-fruit-into-baskets](https://github.com/NathanF28/LeetCodeQA/tree/master/0940-fruit-into-baskets) |
+| [1370-count-number-of-nice-subarrays](https://github.com/NathanF28/LeetCodeQA/tree/master/1370-count-number-of-nice-subarrays) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/NathanF28/LeetCodeQA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3265-maximum-good-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/3265-maximum-good-subarray-sum) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/NathanF28/LeetCodeQA/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/NathanF28/LeetCodeQA/tree/master/0940-fruit-into-baskets) |
+| [1370-count-number-of-nice-subarrays](https://github.com/NathanF28/LeetCodeQA/tree/master/1370-count-number-of-nice-subarrays) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NathanF28/LeetCodeQA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/NathanF28/LeetCodeQA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -81,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/NathanF28/LeetCodeQA/tree/master/0724-find-pivot-index) |
 | [0940-fruit-into-baskets](https://github.com/NathanF28/LeetCodeQA/tree/master/0940-fruit-into-baskets) |
 | [1062-partition-array-into-three-parts-with-equal-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/1062-partition-array-into-three-parts-with-equal-sum) |
+| [1370-count-number-of-nice-subarrays](https://github.com/NathanF28/LeetCodeQA/tree/master/1370-count-number-of-nice-subarrays) |
 | [2102-find-the-middle-index-in-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2102-find-the-middle-index-in-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NathanF28/LeetCodeQA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2358-number-of-ways-to-split-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2358-number-of-ways-to-split-array) |
@@ -105,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/NathanF28/LeetCodeQA/tree/master/0724-find-pivot-index) |
+| [1370-count-number-of-nice-subarrays](https://github.com/NathanF28/LeetCodeQA/tree/master/1370-count-number-of-nice-subarrays) |
 | [2102-find-the-middle-index-in-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2102-find-the-middle-index-in-array) |
 | [2358-number-of-ways-to-split-array](https://github.com/NathanF28/LeetCodeQA/tree/master/2358-number-of-ways-to-split-array) |
 | [3265-maximum-good-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/3265-maximum-good-subarray-sum) |
@@ -113,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/NathanF28/LeetCodeQA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0523-continuous-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0523-continuous-subarray-sum) |
+| [1370-count-number-of-nice-subarrays](https://github.com/NathanF28/LeetCodeQA/tree/master/1370-count-number-of-nice-subarrays) |
 ## Tree
 |  |
 | ------- |
