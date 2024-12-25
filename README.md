@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NathanF28/LeetCodeQA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0209-minimum-size-subarray-sum) |
+| [0413-arithmetic-slices](https://github.com/NathanF28/LeetCodeQA/tree/master/0413-arithmetic-slices) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NathanF28/LeetCodeQA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/NathanF28/LeetCodeQA/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/NathanF28/LeetCodeQA/tree/master/0303-range-sum-query-immutable) |
+| [0413-arithmetic-slices](https://github.com/NathanF28/LeetCodeQA/tree/master/0413-arithmetic-slices) |
 | [0496-next-greater-element-i](https://github.com/NathanF28/LeetCodeQA/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/NathanF28/LeetCodeQA/tree/master/0525-contiguous-array) |
@@ -151,4 +153,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/NathanF28/LeetCodeQA/tree/master/0682-baseball-game) |
 | [0874-backspace-string-compare](https://github.com/NathanF28/LeetCodeQA/tree/master/0874-backspace-string-compare) |
 | [3447-clear-digits](https://github.com/NathanF28/LeetCodeQA/tree/master/3447-clear-digits) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0413-arithmetic-slices](https://github.com/NathanF28/LeetCodeQA/tree/master/0413-arithmetic-slices) |
 <!---LeetCode Topics End-->
