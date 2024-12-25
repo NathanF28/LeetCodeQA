@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/NathanF28/LeetCodeQA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0187-repeated-dna-sequences](https://github.com/NathanF28/LeetCodeQA/tree/master/0187-repeated-dna-sequences) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/NathanF28/LeetCodeQA/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/NathanF28/LeetCodeQA/tree/master/0525-contiguous-array) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/NathanF28/LeetCodeQA/tree/master/0020-valid-parentheses) |
 | [0187-repeated-dna-sequences](https://github.com/NathanF28/LeetCodeQA/tree/master/0187-repeated-dna-sequences) |
 | [0316-remove-duplicate-letters](https://github.com/NathanF28/LeetCodeQA/tree/master/0316-remove-duplicate-letters) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
 | [0874-backspace-string-compare](https://github.com/NathanF28/LeetCodeQA/tree/master/0874-backspace-string-compare) |
 | [2235-capitalize-the-title](https://github.com/NathanF28/LeetCodeQA/tree/master/2235-capitalize-the-title) |
@@ -40,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/NathanF28/LeetCodeQA/tree/master/0187-repeated-dna-sequences) |
 | [0209-minimum-size-subarray-sum](https://github.com/NathanF28/LeetCodeQA/tree/master/0209-minimum-size-subarray-sum) |
 | [0413-arithmetic-slices](https://github.com/NathanF28/LeetCodeQA/tree/master/0413-arithmetic-slices) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/NathanF28/LeetCodeQA/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/NathanF28/LeetCodeQA/tree/master/0713-subarray-product-less-than-k) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NathanF28/LeetCodeQA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
