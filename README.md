@@ -132,10 +132,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [1558-course-schedule-iv](https://github.com/NathanF28/LeetCodeQA/tree/master/1558-course-schedule-iv) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/NathanF28/LeetCodeQA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [1558-course-schedule-iv](https://github.com/NathanF28/LeetCodeQA/tree/master/1558-course-schedule-iv) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/NathanF28/LeetCodeQA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Binary Tree
 |  |
@@ -214,4 +216,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/NathanF28/LeetCodeQA/tree/master/0594-longest-harmonious-subsequence) |
+## Graph
+|  |
+| ------- |
+| [1558-course-schedule-iv](https://github.com/NathanF28/LeetCodeQA/tree/master/1558-course-schedule-iv) |
+## Topological Sort
+|  |
+| ------- |
+| [1558-course-schedule-iv](https://github.com/NathanF28/LeetCodeQA/tree/master/1558-course-schedule-iv) |
 <!---LeetCode Topics End-->
