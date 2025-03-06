@@ -3,7 +3,7 @@ class Solution:
         stack = []
         for log in logs:
             if log == "../":
-                if len(stack) > 0:
+                if stack:
                     stack.pop()
             elif log == "./":
                 continue
