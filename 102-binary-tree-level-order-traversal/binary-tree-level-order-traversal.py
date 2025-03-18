@@ -6,17 +6,17 @@
 #         self.right = right
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        def bfs(curr_level, result):
+        def bfs(curr_level,result):
             if not curr_level:
                 return result
-            next_level = []
-            curr_to_result = []  #  to be appended to result
+            next = []
+            curr = []
             for node in curr_level:
-                curr_to_result.append(node.val)
+                curr.append(node.val)
                 if node.left:
-                    next_level.append(node.left)
+                    next.append(node.left)
                 if node.right:
-                    next_level.append(node.right)
-            result.append(curr_to_result)
-            return bfs(next_level,result)
+                    next.append(node.right)
+            result.append(curr)
+            return bfs(next,result)
         return bfs([root],[]) if root else []
