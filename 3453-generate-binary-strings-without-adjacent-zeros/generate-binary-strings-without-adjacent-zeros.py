@@ -8,7 +8,7 @@ class Solution:
                 return
             for binary in "01":
                 if binary == "0":
-                    if len(path) > 0 and binary == path[-1]:
+                    if len(path) and binary == path[-1]:
                         continue
                 path.append(binary)
                 backtrack(path)
