@@ -12,13 +12,15 @@ class Solution:
             if not node:
                 return (0,0)
             
-            l_sum , l_count = dfs(node.left)
-            r_sum , r_count = dfs(node.right)
+            l_sum, l_count = dfs(node.left)
+            r_sum, r_count = dfs(node.right)
 
-            t_sum = l_sum + r_sum + node.val
-            t_count = l_count + r_count + 1
-            if (t_sum) // t_count == node.val:
+            t_sum = l_sum  + r_sum + node.val
+            t_count = 1 + r_count + l_count
+            if t_sum // t_count == node.val:
                 count+=1
             return (t_sum,t_count)
         dfs(root)
         return count
+
+        
