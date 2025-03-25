@@ -9,7 +9,7 @@ class Solution:
                 if nums[mid] > target:
                     r = mid -1
                 elif nums[mid] < target:
-                    l+=1
+                    l= mid + 1
                 else:
                     if direction == "left":
                         if mid == 0:
