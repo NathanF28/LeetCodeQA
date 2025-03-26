@@ -1,24 +1,21 @@
 class Solution:
     def repairCars(self, ranks: List[int], cars: int) -> int:
-        left = 1
-        right = min(ranks) * cars * cars 
-        
-        def can_repair_all(time):
-            total_cars_repaired = 0
+        l = 1
+        r = max(ranks) *  cars * cars
+
+        def validate(num):
+            count = 0
             for rank in ranks:
-                cars_repaired = int((time / rank) ** 0.5)
-                total_cars_repaired += cars_repaired
-                if total_cars_repaired >= cars:
-                    return True
-            return False
-        
-        while left < right:
-            mid = (left + right) // 2
-            if can_repair_all(mid):
-                right = mid
+                check = num / rank
+                count+= int(check ** 0.5)
+            return count >= cars
+
+        while l < r:
+            mid = (l+r)//2
+            if validate(mid):
+                r = mid
             else:
-                left = mid + 1
-                
-        return left
+                l = mid + 1
+        return l
+
         
-         
