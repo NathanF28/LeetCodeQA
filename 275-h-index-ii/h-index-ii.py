@@ -1,7 +1,7 @@
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
         l = 0
-        r = max(citations)
+        r = 10 ** 9
         while l <=r:
             mid = (l+r) //2
             bl = bisect_left(citations,mid)
