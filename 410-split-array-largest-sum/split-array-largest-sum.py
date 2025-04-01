@@ -1,7 +1,7 @@
 class Solution:
     def splitArray(self, nums: List[int], k: int) -> int:
         l = max(nums)
-        r = sum(nums)
+        r = 10 ** 12
 
         def validate(num):
             splits = k
