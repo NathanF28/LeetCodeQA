@@ -1,7 +1,6 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
         s = s.lstrip()
-        print(s)
         if len(s) == 0:
             return 0
         neg = s[0] == "-"
