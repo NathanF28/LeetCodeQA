@@ -6,25 +6,28 @@ class Solution:
             graph[i].extend(g[i])
         visited = [False] * len(graph)
         false = True
+        print(graph)
         def dfs(node,color):
             nonlocal visited
             nonlocal graph
             nonlocal false
             nonlocal colormap
+
             if visited[node]:
-                if color != colormap[node]:
-                    false = False
-                return
+                return color == colormap[node]
             colormap[node] = color
             visited[node] = True
             for neighbor in graph[node]:
-                dfs(neighbor,1-color)
+                if not dfs(neighbor,1-color):
+                    return False
+            return True 
+            
 
         for i in range(len(graph)):
             if not visited[i]:
-                dfs(i,0)
-        return false 
-
+                if not dfs(i,0):
+                    return False
+        return True
 
         
 
