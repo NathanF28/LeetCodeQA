@@ -4,7 +4,6 @@ class Solution:
         n = len(quiet)
         for u,v in richer:
             graph[v].append(u)
-        
         answer = [-1] * n
         def dfs(i,_min):
             nonlocal answer
