@@ -1,41 +1,31 @@
 class Solution:
     def countCompleteComponents(self, n: int, edges: List[List[int]]) -> int:
-        parent = list(range(n))
-        rank = [1] * n
-
-        def find(x):
-            if parent[x] != x:
-                parent[x] = find(parent[x])
-            return parent[x]
-
-        def union(x, y):
-            root_x, root_y = find(x), find(y)
-            if root_x == root_y:
-                return
-            if rank[root_x] < rank[root_y]:
-                parent[root_x] = root_y
-            elif rank[root_x] > rank[root_y]:
-                parent[root_y] = root_x
-            else:
-                parent[root_y] = root_x
-                rank[root_x] += 1
-
-        for u, v in edges:
-            union(u, v)
-
-        comp_size = [0] * n
-        comp_edges = [0] * n
-
-        for i in range(n):
-            comp_size[find(i)] += 1
-
-        for u, v in edges:
-            comp_edges[find(u)] += 1
-
+        graph = defaultdict(list)
+        for u,v in edges:
+            graph[u].append(v)
+            graph[v].append(u)
+        def isComplete(nodes):
+            n = len(nodes)
+            start = n - 1
+            for node in nodes:
+                if len(graph[node]) != start:
+                    return False
+            return True
+        visited = [False] * n
+        def dfs(i,path):
+            visited[i] = True
+            for neighbor in graph[i]:
+                if not visited[neighbor]:
+                    path.append(neighbor)
+                    dfs(neighbor,path)
+            return path
         count = 0
         for i in range(n):
-            if find(i) == i:
-                if comp_edges[i] == comp_size[i] * (comp_size[i] - 1) // 2:
-                    count += 1
-
+            if not visited[i]:
+                path = []
+                path.append(i)
+                x = dfs(i,path)
+                if isComplete(x):
+                    count+=1
         return count
+        
