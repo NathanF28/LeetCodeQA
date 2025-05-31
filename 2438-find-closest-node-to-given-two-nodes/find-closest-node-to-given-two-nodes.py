@@ -1,20 +1,34 @@
-class Solution(object):
-    def dfs(self, current, distance, edges, distances):
-        while current != -1 and distances[current] == -1:
-            distances[current] = distance
-            distance += 1
-            current = edges[current]
+class Solution:
+    def closestMeetingNode(self, edges: List[int], node1: int, node2: int) -> int:
+        graph = defaultdict(list)
+        for i in range(len(edges)):
+            if edges[i] != -1:
+                graph[i].append(edges[i])
+        dist1 = defaultdict(lambda : float('inf'))
+        dist2 = defaultdict(lambda : float('inf'))
+        index = -1
+        dis = float('inf')
+        visited = set()
+        def dfs(node,which,level):
+            dist = dist1 if which == 1 else dist2
+            dist[node] = level
+            visited.add(node)
+            for neighbor in graph[node]:
+                if neighbor not in visited:
+                    dfs(neighbor,which,level+1)
+        dfs(node1,1,0)
+        visited = set()
+        dfs(node2,0,0)
+        for i in range(len(edges)):
+            val = max(dist1[i], dist2[i])
+            if val == dis:
+                if i < index:
+                    index = i
+            elif val < dis:
+                dis = val
+                index = i
+        return index
 
-    def closestMeetingNode(self, edges, start1, start2):
-        res, Min_Of_Max, n = -1, float('inf'), len(edges)
-        dist1 = [-1] * n
-        dist2 = [-1] * n
-        self.dfs(start1, 0, edges, dist1)
-        self.dfs(start2, 0, edges, dist2)
-        for i in range(n):
-            if dist1[i] >= 0 and dist2[i] >= 0:
-                maxDist = max(dist1[i], dist2[i])
-                if maxDist < Min_Of_Max:
-                    Min_Of_Max = maxDist
-                    res = i
-        return res
+
+
+        
