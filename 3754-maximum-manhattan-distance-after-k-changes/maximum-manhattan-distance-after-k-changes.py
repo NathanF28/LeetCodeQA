@@ -1,23 +1,30 @@
 class Solution:
     def maxDistance(self, s: str, k: int) -> int:
-        res = 1
-        check = ["SW","SE","NE","NW"]
-        for corner in check:
-            final = 0
-            chance = k
+        points = ["SW","NW","SE","NE"]
+
+        _max = 0
+        for corner in points:
+            dist = 0
+            rem = k
             for d in s:
                 if d in corner:
-                    final+=1
+                    dist+=1
                 else:
-                    if chance > 0:
-                        final+=1
-                        chance-=1
+                    if rem > 0:
+                        dist+=1
+                        rem-=1
                     else:
-                        final-=1
-                res = max(final,res)
-        return res
+                        dist-=1
+                _max = max(_max,dist)
+        return _max
 
 
 
 
 
+
+
+
+
+
+        
