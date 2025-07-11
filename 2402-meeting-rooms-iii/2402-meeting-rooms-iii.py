@@ -1,11 +1,9 @@
 class Solution:
     def mostBooked(self, n: int, meetings: List[List[int]]) -> int:
         room_count = defaultdict(int)
-        free_table = defaultdict(list)
         time_table = []
         map = {}
         meetings.sort()
-        print(meetings)
         heap = []
         for i in range(n):
             heappush(heap,i)
@@ -20,7 +18,6 @@ class Solution:
                 room_count[room]+=1
                 duration = meetings[i][1] - meetings[i][0]
                 end = duration + time
-                free_table[end].append(room)
                 heappush(time_table, [end,room])
                 map[i] = room
                 i+=1
