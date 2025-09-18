@@ -1,19 +1,17 @@
 class Solution:
     def decodeString(self, s: str) -> str:
         stack = []
-        for i in range(len(s)):
-            if s[i] == "]":
-                string = ""
+        for char in s:
+            if char == "]":
+                alphabets = ""
                 while stack and stack[-1] != "[":
-                    string = stack.pop() + string
+                    alphabets = stack.pop() + alphabets
                 stack.pop()
-                k = ""
+                digits = ""
                 while stack and stack[-1].isdigit():
-                    k = stack.pop() + k 
-                stack.append(int(k) * string)
+                    digits = stack.pop() + digits
+                substring = int(digits) * alphabets
+                stack.append(substring)
             else:
-                stack.append(s[i])
+                stack.append(char)
         return "".join(stack)
-
-
-        
