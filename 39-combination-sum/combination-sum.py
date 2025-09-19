@@ -1,24 +1,27 @@
 class Solution:
-    def combinationSum(self, nums: List[int], target: int) -> List[List[int]]:
-        res = []
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        possible = []
         map = {}
-        def backtrack(sume,path,target):
-            if sume == target:
+
+        def choose(_sum, path):
+
+            if _sum == target:
                 check = tuple(sorted(path))
                 if check not in map:
-                    map[check]=1
-                    res.append(path[:])
+                    map[check] = 1
+                    possible.append(path[:])
                 return
-            if sume > target:
+            if _sum > target:
                 return
-            for i in range(len(nums)):
-                sume+=nums[i]
-                path.append(nums[i])
-                backtrack(sume,path,target)
-                sume-=nums[i]
+
+            for i in range(len(candidates)):
+                _sum += candidates[i]
+                path.append(candidates[i])
+                choose(_sum,path)
+                _sum -= candidates[i]
                 path.pop()
-        backtrack(0,[],target)
-        liste = []
-        if len(res) == 0:
-            return []
-        return  res 
+        
+        choose(0,[])
+        return possible
+            
+
