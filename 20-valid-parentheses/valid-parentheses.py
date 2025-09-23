@@ -4,9 +4,7 @@ class Solution:
         stack = []
         for char in s:
             if char in map:
-                if stack and stack[-1] != map[char]:
-                    return False
-                elif stack:
+                if stack and stack[-1] == map[char]:
                     stack.pop()
                 else:
                     return False
