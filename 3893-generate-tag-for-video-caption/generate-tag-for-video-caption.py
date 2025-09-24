@@ -3,4 +3,5 @@ class Solution:
         s = caption.title().split()
         if not s:
             return "#"
-        return "".join("#" + s[0].lower() + "".join(s[1:]))[:100] 
+        res = "#" + s[0].lower() + "".join(s[1:])
+        return res[:100]
