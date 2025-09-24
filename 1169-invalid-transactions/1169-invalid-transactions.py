@@ -1,40 +1,41 @@
-from collections import defaultdict
-from typing import List
-
 class Solution:
     def invalidTransactions(self, transactions: List[str]) -> List[str]:
-        # Parse all transactions
-        trans = []
-        for t in transactions:
-            name, time, amount, city = t.split(",")
-            trans.append([name, int(time), int(amount), city, t])
-        
-        # Step 1: find transactions with amount > 1000
-        invalid_set = set()
-        for t in trans:
-            if t[2] > 1000:
-                invalid_set.add(t[4])
-        
-        # Step 2: group by name
+        invalid = set()
         by_name = defaultdict(list)
+        trans = []
+
+        # filter out > 1000$ and convert time and amount to int
+        for t in transactions:
+            name,time,amount,place = t.split(",")
+            if int(amount) > 1000:
+                invalid.add(t)
+            trans.append([name,int(time), int(amount), place, t])
+        
+        # categorize by name 
         for t in trans:
             by_name[t[0]].append(t)
-        
-        # Step 3: two-pointer check for different cities within 60 minutes
-        for name, values in by_name.items():
-            values.sort(key=lambda x: x[1])  # sort by time
-            n = len(values)
+
+        # Find invalids for by name
+        for name, ts in by_name.items():
+            #sort them by time 
+            ts.sort(key = lambda x : x[1])
             left = 0
+            n = len(ts)
             for right in range(n):
-                # Move left to maintain window <= 60 minutes
-                while values[right][1] - values[left][1] > 60:
-                    left += 1
-                # Check all transactions in the window
-                for i in range(left, right):
-                    if values[i][3] != values[right][3]:
-                        invalid_set.add(values[i][4])
-                        invalid_set.add(values[right][4])
-        
-        # Step 4: preserve original order and duplicates
-        result = [t for t in transactions if t in invalid_set]
-        return result
+                # discard window gaps greater than 60 mins
+                while ts[right][1] - ts[left][1] > 60:
+                    left+=1
+                
+                for i in range(left,right):
+                    if ts[left][3] != ts[right][3]:
+                        invalid.add(ts[i][4])
+                        invalid.add(ts[right][4])
+
+        final = []
+        for t in transactions:
+            if t in invalid:
+                final.append(t)
+        return final
+
+            
+
