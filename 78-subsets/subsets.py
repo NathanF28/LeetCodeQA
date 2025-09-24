@@ -1,10 +1,16 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        power = []
-        for mask in range (1 << len(nums)):
-            subsets = []
-            for i in range(len(nums)):
-                if mask & (1 << i):
-                    subsets.append(nums[i])
-            power.append(subsets)
-        return power
+
+        subsets = []
+
+        def pick(index,path):
+            if index == len(nums):
+                subsets.append(path[:])
+                return
+
+            path.append(nums[index])
+            pick(index+1,path)
+            path.pop()
+            pick(index+1,path)
+        pick(0,[])
+        return subsets
