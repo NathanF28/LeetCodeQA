@@ -5,7 +5,6 @@ class Solution:
         for num in nums:
             val = num % value
             map[val]+=1
-        print(map)
         for i in range(len(nums)):
             check = i % value
             if check not in map:
