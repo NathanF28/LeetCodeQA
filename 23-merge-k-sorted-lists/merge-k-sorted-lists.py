@@ -6,18 +6,17 @@
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         heap = []
-        for liste in lists:
-            head = ListNode(0)
-            head.next = liste
-            curr = head.next
-            while curr:
-                heapq.heappush(heap,curr.val)
-                curr = curr.next
-        start = ListNode(0)
-        temp = start
+
+        for i, head in enumerate(lists):
+            if head:
+                heappush(heap,(head.val, i, head))
+        
+        dummy = ListNode()
+        curr = dummy
         while heap:
-            val = heapq.heappop(heap)
-            curr = ListNode(val)
-            temp.next = curr
-            temp = curr
-        return start.next
+            value,index, node = heappop(heap)
+            if node.next:
+                heappush(heap,(node.next.val,index,node.next))
+            curr.next = node
+            curr = node
+        return dummy.next
